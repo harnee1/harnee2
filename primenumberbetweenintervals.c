@@ -17,12 +17,9 @@ while (low < high)
      break;
    }
 }
-
-        if (flag == 0)
-            printf("%d ", low);
-
-        ++low;
-    }
-
-    return 0;
+if (flag == 0)
+  printf("%d ", low);
+  ++low;
+ }
+ return 0;
 }
